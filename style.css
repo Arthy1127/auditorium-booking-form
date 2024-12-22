@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .booking-container {
+    display: flex;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .form-section {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .input-group label {
+    padding: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .input-group input::placeholder {
+    color: #aaa;
+  }
+  
+  .btn {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-link {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    color: #dc3545;
+    text-decoration: none;
+  }
+  
+  .cancel-link:hover {
+    text-decoration: underline;
+  }
+  
+  .image-section {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  
